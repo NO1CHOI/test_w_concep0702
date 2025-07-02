@@ -10,7 +10,8 @@ Tablet = 320~ 767
 
 main {
     /* background-color:lightgoldenrodyellow; */
-    width: 1200px;
+    max-width: 1200px;
+    min-width: 768px;
     height: 150vh;
     margin:0 auto;
 }
@@ -64,7 +65,8 @@ main .top .contents_left .content_wrap li .content li {
 }
 main .top .contents_left .content_wrap li .content li a {font-size: 0.875rem;}
 main .top .contents_left .content_wrap li .content li a img {width: 100%;}
-main .top .contents_left .content_wrap li .content li a .title {padding-top:15px;}
+main .top .contents_left .content_wrap li .content li a .title {padding-top:15px;
+    font-weight: 600;}
 main .top .contents_left .content_wrap li .content li a .color {
     width: 223px;
     color:#aaa;padding:5px 0;
@@ -97,7 +99,7 @@ main .bottom .content_wrap {
 }
 main .bottom .content_wrap li {}
 main .bottom .content_wrap li .content {
-    width: 195px; height:338px;
+    width:195px; height:338px;
 }
 main .bottom .content_wrap li .content li {
     /* background-color: yellow; */
@@ -105,7 +107,7 @@ main .bottom .content_wrap li .content li {
 }
 main .bottom .content_wrap li .content li a {font-size: 0.875rem;}
 main .bottom .content_wrap li .content li a img {width: 100%;}
-main .bottom .content_wrap li .content li a .title {padding-top:15px;}
+main .bottom .content_wrap li .content li a .title {padding-top:15px; font-weight: 600;}
 main .bottom .content_wrap li .content li a .color {
     color:#aaa;padding:5px 0;
     overflow: hidden;

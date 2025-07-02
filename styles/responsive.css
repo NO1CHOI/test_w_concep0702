@@ -1,0 +1,21 @@
+/* responsive.css */
+/* desktop 768 ~ 1920 */
+/* tablet 320 ~ 767 */
+@media screen and (max-width:767px){
+    main {}
+    main .top {width: 460px; margin:0 auto;}
+    main .top .contents_right {margin-right:0;}
+    main .top .contents_left {display: none;}
+    main .bottom {width: 460px; margin:0 auto;}
+    main .bottom .content_wrap {}
+    main .bottom .content_wrap li {width:136px; height:338px;}
+    main .bottom .content_wrap li:nth-child(4) {display: none;}
+    main .bottom .content_wrap li:nth-child(5) {display: none;}
+    main .bottom .content_wrap li:nth-child(6) {display: none;}
+    main .bottom .content_wrap li .content a img {}
+    main .bottom .content_wrap li .content li .love {
+        width:20px; height: 20px;
+        display: inline-block;
+        position:absolute; right:0; bottom:125px;
+    }
+}
