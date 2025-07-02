@@ -9,7 +9,7 @@ Tablet = 320~ 767
 */
 
 main {
-    background-color:lightgoldenrodyellow;
+    /* background-color:lightgoldenrodyellow; */
     width: 1200px;
     height: 150vh;
     margin:0 auto;
@@ -24,12 +24,16 @@ main .top .contents_right h1 {
 main .top .contents_right .big_thum {
     position:relative;
     width: 460px;height:572px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 main .top .contents_right .big_thum a {}
 main .top .contents_right .big_thum .item {
     width: 460px;height:572px;
     display: block;
+    background-image: url(/images/001_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 main .top .contents_right .big_thum .item img {width: 100%;}
 main .top .contents_right .big_thum .favorite {
@@ -41,20 +45,21 @@ main .top .contents_right .big_thum .favorite img {}
 main .top .contents_left {
     height: 572px; width: 699px;
     /* margin-top:110px; */
-    background-color: wheat;
+    /* background-color: wheat; */
 }
-main .top .contents_left > h2 {font-size: 1.5rem; font-weight: 600; margin:25px 0 9px 0;}
+main .top .contents_left > h2 {font-size: 1.5rem; font-weight: 600; margin:23px 0 9px 0;}
 main .top .contents_left span {font-size: 0.875rem;color:#aaa;}
 main .top .contents_left .content_wrap {
     display: flex;
     justify-content: space-between;
+    margin-top:27px;
 }
 main .top .contents_left .content_wrap li {}
 main .top .contents_left .content_wrap li .content {}
 main .top .contents_left .content_wrap li .content li {
     width:223px; height: 338px;
     margin-top:134px;
-    background-color: yellow;
+    /* background-color: yellow; */
     position:relative;
 }
 main .top .contents_left .content_wrap li .content li a {font-size: 0.875rem;}
@@ -78,10 +83,11 @@ main .top .contents_left .content_wrap li .content li .love {
 main .top .contents_left .content_wrap li .content li .love img {width: 100%;}
 /* -------------------상품진열 상단 끝 */
 /* -------------------상품진열 하단 시작 */
-main .bottom {margin-top: 14px;}
+main .bottom {}
 main .bottom .bottom_title {
     display: flex;
     justify-content: space-between;
+    margin:61px 0 14px 0;
 }
 main .bottom .bottom_title h2 {font-size: 1.25rem; font-weight: 600;}
 main .bottom .bottom_title a {color:#aaa;}
@@ -94,7 +100,7 @@ main .bottom .content_wrap li .content {
     width: 195px; height:338px;
 }
 main .bottom .content_wrap li .content li {
-    background-color: yellow;
+    /* background-color: yellow; */
     position:relative;
 }
 main .bottom .content_wrap li .content li a {font-size: 0.875rem;}
