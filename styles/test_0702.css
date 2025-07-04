@@ -31,7 +31,7 @@ main .top .contents_right .big_thum a {}
 main .top .contents_right .big_thum .item {
     width: 460px;height:572px;
     display: block;
-    background-image: url(/images/001_1.png);
+    background-image: url(../images/001_1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
